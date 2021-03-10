@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="cat">cat</string>
+    <string name="Ошибка">3</string>
+    <string name="account_id">Account ID</string>
+    <string name="person_name">Person Name</string>
+    <string name="profile">Profile</string>
+</resources>

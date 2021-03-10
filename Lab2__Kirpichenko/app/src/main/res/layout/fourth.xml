@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="type smth"
+        android:inputType="numberSigned">
+
+    </EditText>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:rowCount="4">
+        <Button
+            android:text="@string/_1"
+            android:layout_width="75dp">
+        </Button>
+        <Button
+            android:text="@string/_2"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_2"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/plus"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_4"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_5"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_6"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/minus"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_7"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_8"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_9"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/multy"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/procent"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/_0"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/c"
+            android:layout_width="75dp" />
+        <Button
+            android:text="@string/backstabslah"
+            android:layout_width="75dp" />
+    </GridLayout>
+
+</LinearLayout>
